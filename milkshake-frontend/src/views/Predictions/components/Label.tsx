@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { BnbUsdtPairTokenIcon, Box, Card, PocketWatchIcon, Text } from '@pancakeswap-libs/uikit'
+import { BnbUsdtPairTokenIcon, Box, Card, PocketWatchIcon, Text } from '@MilkshakeSwap-libs/uikit'
 import { useBnbUsdtTicker } from 'hooks/ticker'
 import useI18n from 'hooks/useI18n'
 import { formatRoundTime } from '../helpers'

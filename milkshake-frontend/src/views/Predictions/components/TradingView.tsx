@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Box } from '@pancakeswap-libs/uikit'
+import { Box } from '@MilkshakeSwap-libs/uikit'
 import { DefaultTheme, useTheme } from 'styled-components'
 
 /**

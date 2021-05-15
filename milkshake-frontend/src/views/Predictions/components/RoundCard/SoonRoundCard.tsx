@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardBody, Text, WaitIcon } from '@pancakeswap-libs/uikit'
+import { CardBody, Text, WaitIcon } from '@MilkshakeSwap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { Round, BetPosition } from 'state/types'
 import { useGetCurrentEpoch, useGetTotalIntervalBlocks } from 'state/hooks'

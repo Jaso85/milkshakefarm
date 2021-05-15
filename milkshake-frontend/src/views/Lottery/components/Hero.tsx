@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, LinkExternal } from '@pancakeswap-libs/uikit'
+import { Heading, Text, LinkExternal } from '@MilkshakeSwap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import Container from 'components/layout/Container'
 
@@ -89,7 +89,7 @@ const Hero = () => {
             bold
             mt={20}
             external
-            href="https://voting.pancakeswap.finance/#/pancake/proposal/QmU8pcbmBrfbfVQXMMxmkExDq3mYq4s5cbBuFe6uCZzdmX"
+            href="https://voting.MilkshakeSwap.finance/#/pancake/proposal/QmU8pcbmBrfbfVQXMMxmkExDq3mYq4s5cbBuFe6uCZzdmX"
           >
             {TranslateString(999, 'Learn more')}
           </LinkExternal>

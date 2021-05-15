@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Box, CardBody, Flex, LinkExternal, PlayCircleOutlineIcon, Text, useTooltip } from '@pancakeswap-libs/uikit'
+import { Box, CardBody, Flex, LinkExternal, PlayCircleOutlineIcon, Text, useTooltip } from '@MilkshakeSwap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { Round, BetPosition } from 'state/types'
 import { useBlock, useGetIntervalBlocks } from 'state/hooks'
@@ -58,7 +58,7 @@ const LiveRoundCard: React.FC<LiveRoundCardProps> = ({
         999,
         'The final price at the end of a round may be different from the price shown on the live feed.',
       )}
-      <LinkExternal href="https://docs.pancakeswap.finance/products/prediction" mt="8px">
+      <LinkExternal href="https://docs.MilkshakeSwap.finance/products/prediction" mt="8px">
         {TranslateString(999, 'Learn More')}
       </LinkExternal>
     </Box>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardHeader, Heading, Text, Flex, Image } from '@pancakeswap-libs/uikit'
+import { CardHeader, Heading, Text, Flex, Image } from '@MilkshakeSwap-libs/uikit'
 import styled from 'styled-components'
 import useI18n from 'hooks/useI18n'
 

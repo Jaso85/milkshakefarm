@@ -11,7 +11,7 @@ import {
   ModalTitle,
   Heading,
   Box,
-} from '@pancakeswap-libs/uikit'
+} from '@MilkshakeSwap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import styled from 'styled-components'
 

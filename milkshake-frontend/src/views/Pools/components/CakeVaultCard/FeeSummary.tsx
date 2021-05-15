@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Flex, useTooltip, Box } from '@pancakeswap-libs/uikit'
+import { Text, Flex, useTooltip, Box } from '@MilkshakeSwap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { VaultFees } from 'hooks/cakeVault/useGetVaultFees'
 import UnstakingFeeCountdownRow from './UnstakingFeeCountdownRow'

@@ -9,7 +9,7 @@ import {
   Heading,
   useModal,
   Skeleton,
-} from '@pancakeswap-libs/uikit'
+} from '@MilkshakeSwap-libs/uikit'
 import BigNumber from 'bignumber.js'
 import useI18n from 'hooks/useI18n'
 import { getBalanceNumber, formatNumber, getDecimalAmount } from 'utils/formatBalance'

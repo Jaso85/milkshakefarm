@@ -1,5 +1,5 @@
 import React from 'react'
-import { BoxProps, Flex, Text } from '@pancakeswap-libs/uikit'
+import { BoxProps, Flex, Text } from '@MilkshakeSwap-libs/uikit'
 import { BetPosition, Round } from 'state/types'
 import useI18n from 'hooks/useI18n'
 import { formatUsd } from '../../helpers'

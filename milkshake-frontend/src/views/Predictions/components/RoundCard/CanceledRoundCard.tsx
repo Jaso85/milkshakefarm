@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardBody, Text, Flex, BlockIcon, LinkExternal } from '@pancakeswap-libs/uikit'
+import { CardBody, Text, Flex, BlockIcon, LinkExternal } from '@MilkshakeSwap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { Round, BetPosition } from 'state/types'
 import { useGetTotalIntervalBlocks } from 'state/hooks'
@@ -42,7 +42,7 @@ const CanceledRoundCard: React.FC<CanceledRoundCardProps> = ({ round }) => {
               {TranslateString(999, 'Round Canceled')}
             </Text>
             {isRefundable && <ReclaimPositionButton epoch={epoch} onSuccess={handleSuccess} width="100%" my="8px" />}
-            <LinkExternal href="https://docs.pancakeswap.finance/products/prediction" external>
+            <LinkExternal href="https://docs.MilkshakeSwap.finance/products/prediction" external>
               {TranslateString(999, 'Learn More')}
             </LinkExternal>
           </Flex>

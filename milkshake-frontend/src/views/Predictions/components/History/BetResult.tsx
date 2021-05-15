@@ -1,6 +1,6 @@
 import React from 'react'
 import { useWeb3React } from '@web3-react/core'
-import { Box, Flex, Heading, Text, PrizeIcon, BlockIcon } from '@pancakeswap-libs/uikit'
+import { Box, Flex, Heading, Text, PrizeIcon, BlockIcon } from '@MilkshakeSwap-libs/uikit'
 import { useAppDispatch } from 'state'
 import useI18n from 'hooks/useI18n'
 import { usePriceBnbBusd } from 'state/hooks'
