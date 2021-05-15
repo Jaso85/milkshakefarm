@@ -42,7 +42,6 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'CommingSoon',
-        //href: 'https://pancakeswap.info',
       },
     ],
   },
