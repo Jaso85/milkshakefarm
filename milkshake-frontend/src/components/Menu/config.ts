@@ -37,7 +37,7 @@ const config: MenuEntry[] = [
     href: '/',
   },
   {
-    label: 'Audit - CommingSoon',
+    label: 'Audit',
     icon: 'InfoIcon',
     items: [
       {
