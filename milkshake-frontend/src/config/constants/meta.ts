@@ -1,44 +1,44 @@
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'PancakeSwap',
+  title: 'MilkShakeSwap',
   description:
-    'The most popular AMM on BSC by user count! Earn CAKE through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by PancakeSwap), NFTs, and more, on a platform you can trust.',
+    'The most popular AMM on BSC by user count! Earn SHAKE through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens!',
   image: 'https://pancakeswap.finance/images/hero.png',
 }
 
 export const customMeta: { [key: string]: PageMeta } = {
   '/': {
-    title: 'Home | PancakeSwap',
+    title: 'Home | MilkShakeSwap',
   },
   '/competition': {
-    title: 'Trading Battle | PancakeSwap',
+    title: 'Trading Battle | MilkShakeSwap',
   },
   '/prediction': {
-    title: 'Prediction | PancakeSwap',
+    title: 'Prediction | MilkShakeSwap',
   },
   '/farms': {
-    title: 'Farms | PancakeSwap',
+    title: 'Farms | MilkShakeSwap',
   },
   '/pools': {
-    title: 'Pools | PancakeSwap',
+    title: 'Pools | MilkShakeSwap',
   },
   '/lottery': {
-    title: 'Lottery | PancakeSwap',
+    title: 'Lottery | MilkShakeSwap',
   },
   '/collectibles': {
-    title: 'Collectibles | PancakeSwap',
+    title: 'Collectibles | MilkShakeSwap',
   },
   '/ifo': {
-    title: 'Initial Farm Offering | PancakeSwap',
+    title: 'Initial Farm Offering | MilkShakeSwap',
   },
   '/teams': {
-    title: 'Leaderboard | PancakeSwap',
+    title: 'Leaderboard | MilkShakeSwap',
   },
   '/profile/tasks': {
-    title: 'Task Center | PancakeSwap',
+    title: 'Task Center | MilkShakeSwap',
   },
   '/profile': {
-    title: 'Your Profile | PancakeSwap',
+    title: 'Your Profile | MilkShakeSwap',
   },
 }
