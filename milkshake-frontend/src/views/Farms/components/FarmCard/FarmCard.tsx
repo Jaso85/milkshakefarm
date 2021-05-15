@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import BigNumber from 'bignumber.js'
 import styled, { keyframes } from 'styled-components'
-import { Flex, Text, Skeleton } from '@MilkshakeSwap-libs/uikit'
+import { Flex, Text, Skeleton } from '@pancakeswap-libs/uikit'
 import { Farm } from 'state/types'
 import { provider as ProviderType } from 'web3-core'
 import useI18n from 'hooks/useI18n'
@@ -154,7 +154,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, account }
         <DetailsSection
           removed={removed}
           bscScanAddress={`https://bscscan.com/address/${farm.lpAddresses[process.env.REACT_APP_CHAIN_ID]}`}
-          infoAddress={`https://MilkshakeSwap.info/pair/${lpAddress}`}
+          infoAddress={`https://pancakeswap.info/pair/${lpAddress}`}
           totalValueFormatted={totalValueFormatted}
           lpLabel={lpLabel}
           addLiquidityUrl={addLiquidityUrl}

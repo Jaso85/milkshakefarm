@@ -8,7 +8,7 @@ import {
   useTooltip,
   ArrowUpIcon,
   ArrowDownIcon,
-} from '@MilkshakeSwap-libs/uikit'
+} from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useAppDispatch } from 'state'
 import { BetPosition, Round } from 'state/types'

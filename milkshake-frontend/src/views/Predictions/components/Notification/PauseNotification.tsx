@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Button, Text } from '@MilkshakeSwap-libs/uikit'
+import { Box, Button, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useAppDispatch } from 'state'
 import { setHistoryPaneState } from 'state/predictions'

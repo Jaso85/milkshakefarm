@@ -35,7 +35,7 @@
     "@binance-chain/bsc-connector": "^1.0.0",
     "@crowdin/crowdin-api-client": "^1.10.4",
     "@ethersproject/abi": "^5.0.7",
-    "@MilkshakeSwap-libs/uikit": "^0.29.2",
+    "@pancakeswap-libs/uikit": "^0.29.2",
     "@reduxjs/toolkit": "^1.5.0",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
@@ -72,7 +72,7 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@MilkshakeSwap-libs/eslint-config-pancake": "1.0.0",
+    "@pancakeswap-libs/eslint-config-pancake": "1.0.0",
     "@types/jest": "^26.0.19",
     "@types/react-redux": "^7.1.16",
     "@types/react-transition-group": "^4.4.1",

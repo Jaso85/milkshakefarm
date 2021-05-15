@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, AutoRenewIcon, Skeleton } from '@MilkshakeSwap-libs/uikit'
+import { Button, AutoRenewIcon, Skeleton } from '@pancakeswap-libs/uikit'
 import { ethers } from 'ethers'
 import useI18n from 'hooks/useI18n'
 import { useCake, useCakeVaultContract } from 'hooks/useContract'

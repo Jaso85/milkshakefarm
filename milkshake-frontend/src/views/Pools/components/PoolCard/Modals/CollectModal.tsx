@@ -11,7 +11,7 @@ import {
   HelpIcon,
   useTooltip,
   Box,
-} from '@MilkshakeSwap-libs/uikit'
+} from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import useTheme from 'hooks/useTheme'
 import { useSousHarvest } from 'hooks/useHarvest'

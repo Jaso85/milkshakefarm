@@ -54,9 +54,9 @@ const getProfile = async (address: string): Promise<GetProfileResponse> => {
         `profile_${address}`,
         {
           username,
-          avatar: `https://MilkshakeSwap.finance/images/nfts/${nft?.images.sm}`,
+          avatar: `https://pancakeswap.finance/images/nfts/${nft?.images.sm}`,
         },
-        { domain: 'MilkshakeSwap.finance', secure: true, expires: 30 },
+        { domain: 'pancakeswap.finance', secure: true, expires: 30 },
       )
     }
 

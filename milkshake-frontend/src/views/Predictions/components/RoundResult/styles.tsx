@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { DefaultTheme } from 'styled-components'
-import { Box, Flex, FlexProps, Text } from '@MilkshakeSwap-libs/uikit'
+import { Box, Flex, FlexProps, Text } from '@pancakeswap-libs/uikit'
 import { formatBnb, formatUsd } from 'views/Predictions/helpers'
 import useI18n from 'hooks/useI18n'
 import { BetPosition, Round } from 'state/types'

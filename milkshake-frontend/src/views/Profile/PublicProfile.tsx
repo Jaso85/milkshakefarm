@@ -15,7 +15,7 @@ import {
   BlockIcon,
   VisibilityOn,
   VisibilityOff,
-} from '@MilkshakeSwap-libs/uikit'
+} from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useProfile } from 'state/hooks'
 import usePersistState from 'hooks/usePersistState'

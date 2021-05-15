@@ -1,4 +1,4 @@
-import { MenuEntry } from '@MilkshakeSwap-libs/uikit'
+import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
@@ -12,19 +12,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.MilkshakeSwap.finance/#/swap',
+        href: 'https://exchange.pancakeswap.finance/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.MilkshakeSwap.finance/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/pool',
       },
       {
         label: 'LP Migration',
-        href: 'https://v1exchange.MilkshakeSwap.finance/#/migrate',
+        href: 'https://v1exchange.pancakeswap.finance/#/migrate',
       },
       {
         label: 'V1 Liquidity (Old)',
-        href: 'https://v1exchange.MilkshakeSwap.finance/#/pool',
+        href: 'https://v1exchange.pancakeswap.finance/#/pool',
       },
     ],
   },
@@ -63,19 +63,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Overview',
-        href: 'https://MilkshakeSwap.info',
+        href: 'https://pancakeswap.info',
       },
       {
         label: 'Tokens',
-        href: 'https://MilkshakeSwap.info/tokens',
+        href: 'https://pancakeswap.info/tokens',
       },
       {
         label: 'Pairs',
-        href: 'https://MilkshakeSwap.info/pairs',
+        href: 'https://pancakeswap.info/pairs',
       },
       {
         label: 'Accounts',
-        href: 'https://MilkshakeSwap.info/accounts',
+        href: 'https://pancakeswap.info/accounts',
       },
     ],
   },
@@ -85,7 +85,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Contact',
-        href: 'https://docs.MilkshakeSwap.finance/contact-us',
+        href: 'https://docs.pancakeswap.finance/contact-us',
       },
       {
         label: 'Github',
@@ -93,11 +93,11 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: 'https://docs.MilkshakeSwap.finance',
+        href: 'https://docs.pancakeswap.finance',
       },
       {
         label: 'Blog',
-        href: 'https://MilkshakeSwap.medium.com',
+        href: 'https://pancakeswap.medium.com',
       },
     ],
   },

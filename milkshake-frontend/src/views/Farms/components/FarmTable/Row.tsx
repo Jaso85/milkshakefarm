@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { FarmWithStakedValue } from 'views/Farms/components/FarmCard/FarmCard'
-import { useMatchBreakpoints } from '@MilkshakeSwap-libs/uikit'
+import { useMatchBreakpoints } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import useDelayedUnmount from 'hooks/useDelayedUnmount'
 import { useFarmUser } from 'state/hooks'

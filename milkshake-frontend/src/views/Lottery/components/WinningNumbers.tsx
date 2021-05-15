@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useWeb3React } from '@web3-react/core'
-import { Image, Card, CardBody } from '@MilkshakeSwap-libs/uikit'
+import { Image, Card, CardBody } from '@pancakeswap-libs/uikit'
 import { useWinningNumbers, useMatchingRewardLength } from 'hooks/useTickets'
 import useI18n from 'hooks/useI18n'
 import useGetLotteryHasDrawn from 'hooks/useGetLotteryHasDrawn'
@@ -99,7 +99,7 @@ const WinningNumbers: React.FC = () => {
               </CenteredTextWithPadding>
             </RowNoPadding>
           </Column>
-          <Link href="https://api.MilkshakeSwap.com/api/lottery?page=0&pageSize=25" target="_blank">
+          <Link href="https://api.pancakeswap.com/api/lottery?page=0&pageSize=25" target="_blank">
             {TranslateString(448, 'Export recent winning numbers')}
           </Link>
         </StyledCardContentInner>

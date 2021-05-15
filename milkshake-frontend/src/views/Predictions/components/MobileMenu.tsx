@@ -10,7 +10,7 @@ import {
   ChartIcon,
   HistoryIcon,
   IconButton,
-} from '@MilkshakeSwap-libs/uikit'
+} from '@pancakeswap-libs/uikit'
 import { useAppDispatch } from 'state'
 import { PredictionStatus } from 'state/types'
 import { useGetPredictionsStatus, useIsChartPaneOpen, useIsHistoryPaneOpen } from 'state/hooks'

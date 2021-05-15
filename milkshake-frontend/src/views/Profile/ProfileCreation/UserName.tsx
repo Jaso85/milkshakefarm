@@ -15,7 +15,7 @@ import {
   useModal,
   Skeleton,
   Checkbox,
-} from '@MilkshakeSwap-libs/uikit'
+} from '@pancakeswap-libs/uikit'
 import { parseISO, formatDistance } from 'date-fns'
 import { useWeb3React } from '@web3-react/core'
 import useToast from 'hooks/useToast'

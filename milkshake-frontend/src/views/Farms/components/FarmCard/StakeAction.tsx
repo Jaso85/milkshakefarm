@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react'
 import styled from 'styled-components'
 import BigNumber from 'bignumber.js'
-import { Button, Flex, Heading, IconButton, AddIcon, MinusIcon, useModal } from '@MilkshakeSwap-libs/uikit'
+import { Button, Flex, Heading, IconButton, AddIcon, MinusIcon, useModal } from '@pancakeswap-libs/uikit'
 import { useLocation } from 'react-router-dom'
 import useI18n from 'hooks/useI18n'
 import useStake from 'hooks/useStake'

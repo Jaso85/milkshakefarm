@@ -15,7 +15,7 @@ import {
   Box,
   LinkExternal,
   ModalCloseButton,
-} from '@MilkshakeSwap-libs/uikit'
+} from '@pancakeswap-libs/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { usePriceBnbBusd } from 'state/hooks'
 import useI18n from 'hooks/useI18n'

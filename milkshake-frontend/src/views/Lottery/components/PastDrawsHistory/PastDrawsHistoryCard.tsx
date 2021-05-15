@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Heading, Card, CardBody, Text } from '@MilkshakeSwap-libs/uikit'
+import { Heading, Card, CardBody, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import styled from 'styled-components'
 import Select, { OptionProps } from 'components/Select/Select'

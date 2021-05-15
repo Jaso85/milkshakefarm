@@ -1,7 +1,7 @@
 import BigNumber from 'bignumber.js'
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
-import { Flex, Text, Box } from '@MilkshakeSwap-libs/uikit'
+import { Flex, Text, Box } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useCake, useCakeVaultContract } from 'hooks/useContract'
 import { VaultFees } from 'hooks/cakeVault/useGetVaultFees'

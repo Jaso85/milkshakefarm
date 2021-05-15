@@ -1,5 +1,5 @@
 import React, { ReactNode, useState } from 'react'
-import { AutoRenewIcon, Button, ButtonProps } from '@MilkshakeSwap-libs/uikit'
+import { AutoRenewIcon, Button, ButtonProps } from '@pancakeswap-libs/uikit'
 import { useWeb3React } from '@web3-react/core'
 import useI18n from 'hooks/useI18n'
 import { usePredictionsContract } from 'hooks/useContract'

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Card, CardBody, CardHeader, Heading, Text, Flex } from '@MilkshakeSwap-libs/uikit'
+import { Card, CardBody, CardHeader, Heading, Text, Flex } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import FoldableText from 'components/FoldableText'
 
@@ -81,14 +81,14 @@ const FAQ = () => {
               -{' '}
               {TranslateString(
                 999,
-                'In the event of a disagreement concerning the final winning team or rank, MilkshakeSwap will have the final say.',
+                'In the event of a disagreement concerning the final winning team or rank, PancakeSwap will have the final say.',
               )}
             </Text>
             <Text fontSize="14px" color="textSubtle">
               -{' '}
               {TranslateString(
                 999,
-                'MilkshakeSwap can and will disqualify any team or specific members that are proven to have taken malicious action or attempt to “cheat” in any way.',
+                'PancakeSwap can and will disqualify any team or specific members that are proven to have taken malicious action or attempt to “cheat” in any way.',
               )}
             </Text>
           </FoldableText>

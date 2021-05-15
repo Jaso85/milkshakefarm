@@ -11,7 +11,7 @@ import {
   LaurelRightIcon,
   CheckmarkCircleIcon,
   useModal,
-} from '@MilkshakeSwap-libs/uikit'
+} from '@pancakeswap-libs/uikit'
 import { CLAIM, OVER } from 'config/constants/trading-competition/easterPhases'
 import UnlockButton from 'components/UnlockButton'
 import useI18n from 'hooks/useI18n'

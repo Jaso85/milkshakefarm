@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Text, IconButton, useModal, CalculateIcon, Skeleton, useTooltip } from '@MilkshakeSwap-libs/uikit'
+import { Flex, Text, IconButton, useModal, CalculateIcon, Skeleton, useTooltip } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { getPoolApr } from 'utils/apr'

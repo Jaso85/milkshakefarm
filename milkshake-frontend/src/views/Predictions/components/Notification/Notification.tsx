@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Card, CardBody, Heading } from '@MilkshakeSwap-libs/uikit'
+import { Card, CardBody, Heading } from '@pancakeswap-libs/uikit'
 
 interface NotificationProps {
   title: string

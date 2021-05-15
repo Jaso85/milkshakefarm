@@ -12,7 +12,7 @@ import {
   CrownIcon,
   TrophyGoldIcon,
   TeamPlayerIcon,
-} from '@MilkshakeSwap-libs/uikit'
+} from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useTradingCompetitionContract } from 'hooks/useContract'
 import useToast from 'hooks/useToast'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardBody, Heading, Text } from '@MilkshakeSwap-libs/uikit'
+import { Card, CardBody, Heading, Text } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { useTotalSupply, useBurnedBalance } from 'hooks/useTokenBalance'
@@ -30,18 +30,18 @@ const CakeStats = () => {
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'Shake Stats')}
+          {TranslateString(534, 'Cake Stats')}
         </Heading>
         <Row>
-          <Text fontSize="14px">{TranslateString(536, 'Total SHAKE Supply')}</Text>
+          <Text fontSize="14px">{TranslateString(536, 'Total CAKE Supply')}</Text>
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(538, 'Total SHAKE Burned')}</Text>
+          <Text fontSize="14px">{TranslateString(538, 'Total CAKE Burned')}</Text>
           <CardValue fontSize="14px" decimals={0} value={burnedBalance} />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New SHAKE/block')}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New CAKE/block')}</Text>
           <CardValue fontSize="14px" decimals={0} value={22} />
         </Row>
       </CardBody>

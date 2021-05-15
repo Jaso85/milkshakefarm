@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Flex, Box, Image, CheckmarkCircleIcon, FlexProps, HelpIcon, useTooltip } from '@MilkshakeSwap-libs/uikit'
+import { Text, Flex, Box, Image, CheckmarkCircleIcon, FlexProps, HelpIcon, useTooltip } from '@pancakeswap-libs/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { Ifo, PoolIds } from 'config/constants/types'
 import { PublicIfoData, WalletIfoData } from 'hooks/ifo/types'
@@ -64,7 +64,7 @@ const IfoCardTokens: React.FC<IfoCardTokensProps> = ({
     if (account && !hasProfile) {
       return (
         <Text textAlign="center">
-          {TranslateString(999, 'You need an active MilkshakeSwap Profile to take part in an IFO!')}
+          {TranslateString(999, 'You need an active PancakeSwap Profile to take part in an IFO!')}
         </Text>
       )
     }

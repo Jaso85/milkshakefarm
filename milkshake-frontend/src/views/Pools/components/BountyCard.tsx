@@ -12,7 +12,7 @@ import {
   useModal,
   Box,
   useTooltip,
-} from '@MilkshakeSwap-libs/uikit'
+} from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import useRefresh from 'hooks/useRefresh'
 import useGetVaultFees from 'hooks/cakeVault/useGetVaultFees'

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { BlockIcon, CardBody } from '@MilkshakeSwap-libs/uikit'
+import { BlockIcon, CardBody } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { Round, BetPosition } from 'state/types'
 import { RoundResult } from '../RoundResult'

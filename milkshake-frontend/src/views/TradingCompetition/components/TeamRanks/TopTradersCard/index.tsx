@@ -10,7 +10,7 @@ import {
   Box,
   Flex,
   ExpandableLabel,
-} from '@MilkshakeSwap-libs/uikit'
+} from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { TeamRanksProps } from '../../../types'
 import TopTradersGrid from './TopTradersGrid'

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { CheckmarkCircleIcon, Tag, useTooltip } from '@MilkshakeSwap-libs/uikit'
+import { CheckmarkCircleIcon, Tag, useTooltip } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { formatBnb } from '../../helpers'
 

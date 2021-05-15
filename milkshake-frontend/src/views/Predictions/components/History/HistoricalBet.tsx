@@ -8,7 +8,7 @@ import {
   IconButton,
   PlayCircleOutlineIcon,
   Text,
-} from '@MilkshakeSwap-libs/uikit'
+} from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import { useAppDispatch } from 'state'
 import { markBetAsCollected } from 'state/predictions'

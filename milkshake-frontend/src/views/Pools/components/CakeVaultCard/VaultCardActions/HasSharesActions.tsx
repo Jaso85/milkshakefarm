@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Text, IconButton, AddIcon, MinusIcon, Heading, useModal, Skeleton } from '@MilkshakeSwap-libs/uikit'
+import { Flex, Text, IconButton, AddIcon, MinusIcon, Heading, useModal, Skeleton } from '@pancakeswap-libs/uikit'
 import BigNumber from 'bignumber.js'
 import { getBalanceNumber, formatNumber } from 'utils/formatBalance'
 import { Pool } from 'state/types'

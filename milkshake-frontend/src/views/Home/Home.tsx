@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, BaseLayout } from '@MilkshakeSwap-libs/uikit'
+import { Heading, Text, BaseLayout } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
 import FarmStakingCard from 'views/Home/components/FarmStakingCard'
@@ -83,13 +83,21 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'MilkshakeSwap')}
+          {TranslateString(576, 'PancakeSwap')}
         </Heading>
         <Text>{TranslateString(578, 'A place to enjoy Milkshakes a farm on Binance Smart Chain.')}</Text>
       </Hero>
       <div>
         <Cards>
           <FarmStakingCard />
+          <LotteryCard />
+        </Cards>
+        <CTACards>
+          <EarnAPRCard />
+          <EarnAssetCard />
+          <WinCard />
+        </CTACards>
+        <Cards>
           <CakeStats />
           <TotalValueLockedCard />
         </Cards>
