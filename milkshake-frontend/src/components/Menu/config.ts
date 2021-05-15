@@ -18,64 +18,31 @@ const config: MenuEntry[] = [
         label: 'Liquidity',
         href: 'https://exchange.pancakeswap.finance/#/pool',
       },
-      {
-        label: 'LP Migration',
-        href: 'https://v1exchange.pancakeswap.finance/#/migrate',
-      },
-      {
-        label: 'V1 Liquidity (Old)',
-        href: 'https://v1exchange.pancakeswap.finance/#/pool',
-      },
     ],
   },
   {
-    label: 'Farms',
+    label: 'Kitchen',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Pools',
+    label: 'ShakeIt',
     icon: 'PoolIcon',
     href: '/pools',
   },
+ 
   {
-    label: 'Prediction',
-    icon: 'PredictionsIcon',
-    href: '/prediction',
-    status: {
-      text: 'BETA',
-      color: 'warning',
-    },
-  },
-  {
-    label: 'Lottery - Comming Soon',
+    label: 'Lottery - Soon',
     icon: 'TicketIcon',
     href: '/',
   },
   {
-    label: 'Collectibles - Comming Soon',
-    icon: 'NftIcon',
-    href: '/collectibles',
-  },
-  {
-    label: 'Info',
+    label: 'Audit',
     icon: 'InfoIcon',
     items: [
       {
-        label: 'Overview',
-        href: 'https://pancakeswap.info',
-      },
-      {
-        label: 'Tokens',
-        href: 'https://pancakeswap.info/tokens',
-      },
-      {
-        label: 'Pairs',
-        href: 'https://pancakeswap.info/pairs',
-      },
-      {
-        label: 'Accounts',
-        href: 'https://pancakeswap.info/accounts',
+        label: 'CommingSoon',
+        //href: 'https://pancakeswap.info',
       },
     ],
   },
@@ -84,20 +51,12 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     items: [
       {
-        label: 'Contact',
-        href: 'https://docs.pancakeswap.finance/contact-us',
-      },
-      {
         label: 'Github',
         href: 'https://github.com/milkshakefarm',
       },
       {
         label: 'Docs',
         href: 'https://docs.pancakeswap.finance',
-      },
-      {
-        label: 'Blog',
-        href: 'https://pancakeswap.medium.com',
       },
     ],
   },
