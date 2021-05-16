@@ -1,14 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 // eslint-disable-next-line import/no-unresolved
 import { PancakeTheme } from 'milkshake-uikit'
-import { PancakeTheme } from './milkshake-uikit'
-import { PancakeTheme } from '../milkshake-uikit'
-import { PancakeTheme } from '../../milkshake-uikit'
-import { PancakeTheme } from '.../milkshake-uikit'
-import { PancakeTheme } from '..../milkshake-uikit'
-import { PancakeTheme } from '../../milkshake-uikit/src/theme'
-import { PancakeTheme } from '.../milkshake-uikit/src/theme'
-import { PancakeTheme } from '..../milkshake-uikit/src/theme'
+
 
 declare module 'styled-components' {
   /* eslint-disable @typescript-eslint/no-empty-interface */
