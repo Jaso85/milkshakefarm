@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 // eslint-disable-next-line import/no-unresolved
 import { PancakeTheme } from 'milkshake-uikit'
+import { PancakeTheme } from './milkshake-uikit'
 import { PancakeTheme } from '../milkshake-uikit'
 import { PancakeTheme } from '../../milkshake-uikit'
 import { PancakeTheme } from '.../milkshake-uikit'
