@@ -23,7 +23,7 @@
         "ts": "never",
         "tsx": "never"
       }
-   ]
+   ],
    
     "no-console": ["warn", { "allow": ["info", "warn", "error"] }],
     "no-plusplus": 0,
