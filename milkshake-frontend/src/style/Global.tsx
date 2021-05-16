@@ -1,16 +1,3 @@
-"rules": {
-   "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        "js": "never",
-        "jsx": "never",
-        "ts": "never",
-        "tsx": "never"
-      }
-   ]
-}
-
 import { createGlobalStyle } from 'styled-components'
 // eslint-disable-next-line import/no-unresolved
 import { PancakeTheme } from "./milkshake-uikit/src/theme"
